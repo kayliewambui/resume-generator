@@ -12,13 +12,13 @@ import { useFieldArray, useFormContext } from 'react-hook-form';
 
 function Addexperience(props){
 //adding work experience by mapping
-  const {register,errors}=props;
+  const {register,errors, index }=props;
  
 const {append,fields,remove}=useFieldArray({name:"experiences"})
 
 
 return(<>
-{fields.map((item,index)=>{return(<>
+{fields.map((item,i)=>{return(<>
 
   <Typography variant='h6'  m={3}>
          Experience {index+2}
@@ -45,6 +45,18 @@ return(<>
           <TextField type='date' id="filled-basic"  {...register(`experiences[${index}].End_Date`,{ required: true })} defaultValue={item.End_Date}  variant="outlined" fullWidth />
           {errors.End_Date && <span>*This end date field is required*</span>}
         </Grid>
+        <Grid item xs={12}>
+        <TextField
+          label="Description"
+          multiline
+          rows={5}
+          rowsMax={10}
+          fullWidth
+          {...register(`experiences[${index}].Description`)}
+          variant="outlined"
+          placeholder="Describe your responsibilities and achievements in this role."
+        />
+      </Grid>
         <Grid item xs={12}>
        
         <Stack direction="row" spacing={2} justifyContent="right">
@@ -106,7 +118,11 @@ return(<>
           <TextField  type='date'  id="outlined-basic"  {...register(`End_Date`,{ required: true })} variant="outlined" fullWidth />
           {errors.End_Date && <span>*This end date field is required*</span>}
         </Grid>
-      </Grid>
+        <Grid item xs={12}>
+          <Addexperience register={register} errors={errors} index={0} />  {/* Pass index as prop */}
+        </Grid>
+
+  </Grid>
       <Grid item xs={12}>   <Addexperience register={register} errors={errors} /></Grid>
 
     </Box>
