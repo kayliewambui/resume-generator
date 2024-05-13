@@ -1,4 +1,4 @@
-# Resume-Builder (AlmaBetter__Capstone__Project)
+# Resume-Generator
 
 ├── public/
 │   ├── favicon.ico
@@ -15,27 +15,28 @@
 │   │
 │   └── Components/
 │       ├── about_us_page/
-│       │   └── aboutus.jsx
+│       │   └── aboutus.js
 │       │
 │       ├── detail_filling_page/
 │       │   ├── navtabs/
-│       │   │   └── navtabs.jsx
-│       │   ├── detail.jsx
-│       │   ├── education.jsx
-│       │   ├── keyskills.jsx
-│       │   ├── personal_info.jsx
-│       │   └── workexperience.jsx
+│       │   │   └── navtabs.js
+│       │   ├── detail.js
+│       │   ├── education.js
+│       │   ├── keyskills.js
+│       │   ├── personal_info.js
+│       │   └── addexperience.js
+
 │       │
 │       ├── homepage/
-│       │   ├── my_templates.jsx
+│       │   ├── my_templates.js
 │       │   ├── mytamplate.css
-│       │   ├── template1.jsx
-│       │   ├── template2.jsx
-│       │   ├── template3.jsx
-│       │   └── template4.jsx
+│       │   ├── template1.js
+│       │   ├── template2.js
+│       │   ├── template3.js
+│       │   └── template4.js
 │       │
 │       ├── preview_page/
-│       │   ├── preview.jsx
+│       │   ├── preview.js
 │       │   └── preview.css
 │       │
 │       ├── images/
