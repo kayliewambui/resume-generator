@@ -18,7 +18,7 @@ function App() {
   return (
 
     <BrowserRouter><Routes>
-      <Route path='/' element={<Mytemplates />}></Route>
+      <Route path='/resume-generator' element={<Mytemplates />}></Route>
       <Route path='det' element={<Detail/>}></Route>
       <Route path="prev" element={<Previewpage/>}></Route>
     
