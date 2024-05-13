@@ -5,7 +5,8 @@ import Stack from '@mui/material/Stack';
 import Personal_Info from "./personal_info"
 import { updateinfo } from "../../state/action"
 import { Button } from "@mui/material"
-import Work_info from "./workexperience"
+import Work_info from "./workinfo"
+import Addexperience from './addexperience';
 import Education from "./education"
 import KeySkills from "./keySkills"
 import DrawerAppBar from '../navbar/navbar'
