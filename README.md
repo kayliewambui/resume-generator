@@ -103,14 +103,6 @@
  <br/> -Navigated to details filling page 
 * About us
 
-*__Live Link__* <br/>
-<b> https://resumebuilder02.netlify.app/</b>
-
-</hr>
-
-*__Demo Video__* </br>
-<b>https://www.youtube.com/watch?v=vHYAhyo6f0U</b>
-
 
 
 
