@@ -78,7 +78,7 @@
 
 
 ## Introduction
-* Resume@builder is a web application where anyone can create resume with ease and choose from different available templates.
+* Resume Generator is a web application where anyone can create resume with ease and choose from different available templates.
 * It has two tabs : 1) Resume Templates (Home Page) , 2) About us 
 * Before downloading we have a preview option to view your resume.
 * You can download resumes to the local hard drive.
